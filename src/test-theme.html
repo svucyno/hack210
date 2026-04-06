@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Token Test</title>
+  <style>
+    /* Import the CSS custom properties */
+    :root {
+      /* Dark theme base */
+      --background: 150 20% 4%;
+      --foreground: 210 20% 90%;
+      --card: 150 20% 8%;
+      --card-foreground: 210 20% 90%;
+      --primary: 160 84% 39%;
+      --primary-foreground: 210 20% 98%;
+      --secondary: 150 20% 12%;
+      --secondary-foreground: 210 20% 90%;
+      --muted: 150 20% 15%;
+      --muted-foreground: 210 20% 60%;
+      --accent: 160 84% 39%;
+      --accent-foreground: 210 20% 98%;
+      --border: 160 84% 39% / 0.1;
+      --agri-emerald: 160 84% 39%;
+      --agri-emerald-light: 160 84% 50%;
+      --agri-emerald-dark: 160 84% 30%;
+    }
+
+    body {
+      background: hsl(var(--background));
+      color: hsl(var(--foreground));
+      font-family: system-ui, sans-serif;
+      padding: 2rem;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: hsl(var(--primary));
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .card {
+      background: hsl(var(--card));
+      border: 1px solid hsl(var(--border));
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+    }
+
+    .card h3 {
+      color: hsl(var(--primary));
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    .color-swatch {
+      width: 100%;
+      height: 60px;
+      border-radius: 0.5rem;
+      margin-bottom: 0.5rem;
+      border: 1px solid hsl(var(--border));
+    }
+
+    .bg-primary { background: hsl(var(--primary)); }
+    .bg-secondary { background: hsl(var(--secondary)); }
+    .bg-accent { background: hsl(var(--accent)); }
+    .bg-muted { background: hsl(var(--muted)); }
+    .bg-emerald { background: hsl(var(--agri-emerald)); }
+    .bg-emerald-light { background: hsl(var(--agri-emerald-light)); }
+    .bg-emerald-dark { background: hsl(var(--agri-emerald-dark)); }
+
+    .text-muted {
+      color: hsl(var(--muted-foreground));
+      font-size: 0.875rem;
+    }
+
+    .success {
+      background: hsl(142 71% 45%);
+      color: white;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      margin-top: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌾 AgriDash Theme Token Test</h1>
+    
+    <div class="success">
+      ✅ Theme tokens are loaded and accessible!
+    </div>
+
+    <h2 style="color: hsl(var(--foreground)); margin-top: 2rem;">Color Palette</h2>
+    
+    <div class="grid">
+      <div class="card">
+        <h3>Primary (Emerald)</h3>
+        <div class="color-swatch bg-primary"></div>
+        <p class="text-muted">hsl(160 84% 39%)</p>
+      </div>
+
+      <div class="card">
+        <h3>Secondary</h3>
+        <div class="color-swatch bg-secondary"></div>
+        <p class="text-muted">hsl(150 20% 12%)</p>
+      </div>
+
+      <div class="card">
+        <h3>Accent</h3>
+        <div class="color-swatch bg-accent"></div>
+        <p class="text-muted">hsl(160 84% 39%)</p>
+      </div>
+
+      <div class="card">
+        <h3>Muted</h3>
+        <div class="color-swatch bg-muted"></div>
+        <p class="text-muted">hsl(150 20% 15%)</p>
+      </div>
+
+      <div class="card">
+        <h3>Emerald</h3>
+        <div class="color-swatch bg-emerald"></div>
+        <p class="text-muted">hsl(160 84% 39%)</p>
+      </div>
+
+      <div class="card">
+        <h3>Emerald Light</h3>
+        <div class="color-swatch bg-emerald-light"></div>
+        <p class="text-muted">hsl(160 84% 50%)</p>
+      </div>
+
+      <div class="card">
+        <h3>Emerald Dark</h3>
+        <div class="color-swatch bg-emerald-dark"></div>
+        <p class="text-muted">hsl(160 84% 30%)</p>
+      </div>
+    </div>
+
+    <h2 style="color: hsl(var(--foreground)); margin-top: 2rem;">Typography</h2>
+    
+    <div class="card">
+      <h3>Text Hierarchy</h3>
+      <p style="color: hsl(var(--foreground));">Primary text - hsl(210 20% 90%)</p>
+      <p style="color: hsl(var(--muted-foreground));">Muted text - hsl(210 20% 60%)</p>
+      <p style="color: hsl(var(--primary));">Accent text - hsl(160 84% 39%)</p>
+    </div>
+
+    <h2 style="color: hsl(var(--foreground)); margin-top: 2rem;">Components</h2>
+    
+    <div class="grid">
+      <div class="card">
+        <h3>Card Component</h3>
+        <p class="text-muted">Background: hsl(150 20% 8%)</p>
+        <p class="text-muted">Border: hsl(160 84% 39% / 0.1)</p>
+      </div>
+
+      <div class="card">
+        <h3>Interactive Elements</h3>
+        <button style="
+          background: hsl(var(--primary));
+          color: hsl(var(--primary-foreground));
+          border: none;
+          padding: 0.5rem 1rem;
+          border-radius: 0.5rem;
+          cursor: pointer;
+        ">Primary Button</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

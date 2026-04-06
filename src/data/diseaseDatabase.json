@@ -1,0 +1,301 @@
+{
+  "diseases": [
+    {
+      "diseaseName": "Tomato___Late_blight",
+      "symptoms": {
+        "en": ["Dark brown spots on leaves", "White fuzzy growth on leaf undersides", "Rapid leaf wilting", "Brown lesions on stems", "Fruit rot"],
+        "hi": ["पत्तियों पर गहरे भूरे धब्बे", "पत्ती के नीचे सफेद रोएंदार वृद्धि", "पत्तियों का तेजी से मुरझाना", "तनों पर भूरे घाव", "फल सड़न"],
+        "te": ["ఆకులపై ముదురు గోధుమ మచ్చలు", "ఆకు దిగువ భాగంలో తెల్లని పెరుగుదల", "ఆకులు వేగంగా వాడిపోవడం", "కాండాలపై గోధుమ గాయాలు", "పండు కుళ్ళు"]
+      },
+      "description": {
+        "en": "Late blight is caused by Phytophthora infestans. Spreads rapidly in cool, wet conditions.",
+        "hi": "लेट ब्लाइट फाइटोफ्थोरा इन्फेस्टन्स के कारण होता है। ठंडी, गीली परिस्थितियों में तेजी से फैलता है।",
+        "te": "లేట్ బ్లైట్ ఫైటోఫ్థోరా ఇన్ఫెస్టాన్స్ వల్ల కలుగుతుంది. చల్లని, తడి పరిస్థితులలో వేగంగా వ్యాపిస్తుంది."
+      },
+      "treatment": {
+        "en": "Remove infected leaves. Apply copper-based fungicide every 7-10 days. Ensure good air circulation. Avoid overhead watering.",
+        "hi": "संक्रमित पत्तियों को हटा दें। हर 7-10 दिनों में तांबा आधारित फफूंदनाशक लगाएं। अच्छा वायु संचार सुनिश्चित करें।",
+        "te": "సోకిన ఆకులను తొలగించండి. ప్రతి 7-10 రోజులకు రాగి ఆధారిత శిలీంద్ర నాశిని వర్తించండి. మంచి గాలి ప్రసరణను నిర్ధారించండి."
+      },
+      "pesticides": [
+        {"name": "Copper Oxychloride 50% WP", "buyLink": "https://www.amazon.in/s?k=copper+oxychloride+fungicide"},
+        {"name": "Mancozeb 75% WP", "buyLink": "https://www.amazon.in/s?k=mancozeb+fungicide"}
+      ],
+      "organicSolutions": {
+        "en": ["Spray neem oil solution weekly", "Apply Bordeaux mixture", "Use baking soda spray", "Mulch with straw"],
+        "hi": ["साप्ताहिक नीम तेल स्प्रे करें", "बोर्डो मिश्रण लगाएं", "बेकिंग सोडा स्प्रे करें", "पुआल से मल्च करें"],
+        "te": ["వారానికి వేప నూనె స్ప్రే చేయండి", "బోర్డో మిశ్రమం వర్తించండి", "బేకింగ్ సోడా స్ప్రే చేయండి", "గడ్డితో మల్చ్ వేయండి"]
+      }
+    },
+    {
+      "diseaseName": "Tomato___Early_blight",
+      "symptoms": {
+        "en": ["Dark brown spots with rings on older leaves", "Yellowing around spots", "Leaf drop from bottom", "Stem lesions", "Fruit spots"],
+        "hi": ["पुरानी पत्तियों पर वलयों के साथ धब्बे", "धब्बों के चारों ओर पीलापन", "नीचे से पत्ती गिरना", "तने पर घाव", "फल पर धब्बे"],
+        "te": ["పాత ఆకులపై వలయాలతో మచ్చలు", "మచ్చల చుట్టూ పసుపు రంగు", "దిగువ నుండి ఆకులు రాలడం", "కాండం గాయాలు", "పండు మచ్చలు"]
+      },
+      "description": {
+        "en": "Early blight is caused by Alternaria solani. Thrives in warm, humid conditions.",
+        "hi": "अर्ली ब्लाइट अल्टरनेरिया सोलानी के कारण होता है। गर्म, आर्द्र परिस्थितियों में पनपता है।",
+        "te": "ఎర్లీ బ్లైట్ ఆల్టర్నేరియా సోలానీ వల్ల కలుగుతుంది. వెచ్చని, తేమతో కూడిన పరిస్థితులలో వృద్ధి చెందుతుంది."
+      },
+      "treatment": {
+        "en": "Remove affected leaves. Apply chlorothalonil or mancozeb fungicide. Mulch around plants. Rotate crops annually.",
+        "hi": "प्रभावित पत्तियों को हटा दें। क्लोरोथैलोनिल या मैनकोजेब फफूंदनाशक लगाएं। पौधों के चारों ओर मल्च करें।",
+        "te": "ప్రభావిత ఆకులను తొలగించండి. క్లోరోథలోనిల్ లేదా మాంకోజెబ్ శిలీంద్ర నాశిని వర్తించండి. మొక్కల చుట్టూ మల్చ్ వేయండి."
+      },
+      "pesticides": [
+        {"name": "Chlorothalonil 75% WP", "buyLink": "https://www.amazon.in/s?k=chlorothalonil+fungicide"},
+        {"name": "Mancozeb 75% WP", "buyLink": "https://www.amazon.in/s?k=mancozeb+fungicide"}
+      ],
+      "organicSolutions": {
+        "en": ["Apply compost tea weekly", "Use copper-based fungicides", "Spray baking soda solution", "Remove lower leaves"],
+        "hi": ["साप्ताहिक कम्पोस्ट चाय लगाएं", "तांबा आधारित फफूंदनाशक उपयोग करें", "बेकिंग सोडा घोल स्प्रे करें", "निचली पत्तियां हटाएं"],
+        "te": ["వారానికి కంపోస్ట్ టీ వర్తించండి", "రాగి ఆధారిత శిలీంద్ర నాశినులు ఉపయోగించండి", "బేకింగ్ సోడా ద్రావణం స్ప్రే చేయండి", "దిగువ ఆకులను తొలగించండి"]
+      }
+    },
+    {
+      "diseaseName": "Potato___Late_blight",
+      "symptoms": {
+        "en": ["Water-soaked spots on leaves", "White mold on undersides", "Rapid blackening of foliage", "Brown rot in tubers", "Foul odor"],
+        "hi": ["पत्तियों पर पानी से भीगे धब्बे", "नीचे सफेद फफूंद", "पत्तियों का तेजी से काला पड़ना", "कंदों में भूरी सड़न", "दुर्गंध"],
+        "te": ["ఆకులపై నీటితో తడిసిన మచ్చలు", "దిగువ భాగంలో తెల్లని బూజు", "ఆకులు వేగంగా నల్లబడటం", "గడ్డ దుంపలలో కుళ్ళు", "దుర్వాసన"]
+      },
+      "description": {
+        "en": "Potato late blight caused by Phytophthora infestans. Devastating in cool, wet weather.",
+        "hi": "आलू लेट ब्लाइट फाइटोफ्थोरा इन्फेस्टन्स के कारण होता है। ठंडे, गीले मौसम में विनाशकारी।",
+        "te": "బంగాళాదుంప లేట్ బ్లైట్ ఫైటోఫ్థోరా ఇన్ఫెస్టాన్స్ వల్ల కలుగుతుంది. చల్లని, తడి వాతావరణంలో వినాశకరమైనది."
+      },
+      "treatment": {
+        "en": "Apply copper fungicides preventively. Remove infected plants. Harvest in dry weather. Use disease-free seed potatoes.",
+        "hi": "निवारक रूप से तांबा फफूंदनाशक लगाएं। संक्रमित पौधे हटाएं। सूखे मौसम में कटाई करें। रोग-मुक्त बीज आलू उपयोग करें।",
+        "te": "నివారణగా రాగి శిలీంద్ర నాశినులు వర్తించండి. సోకిన మొక్కలను తొలగించండి. పొడి వాతావరణంలో కోయండి. వ్యాధి-రహిత విత్తనాలు ఉపయోగించండి."
+      },
+      "pesticides": [
+        {"name": "Copper Oxychloride 50% WP", "buyLink": "https://www.amazon.in/s?k=copper+oxychloride+fungicide"},
+        {"name": "Cymoxanil + Mancozeb", "buyLink": "https://www.amazon.in/s?k=cymoxanil+mancozeb+fungicide"}
+      ],
+      "organicSolutions": {
+        "en": ["Use Bordeaux mixture", "Apply neem oil weekly", "Hill up soil around plants", "Plant resistant varieties"],
+        "hi": ["बोर्डो मिश्रण उपयोग करें", "साप्ताहिक नीम तेल लगाएं", "पौधों के चारों ओर मिट्टी चढ़ाएं", "प्रतिरोधी किस्में लगाएं"],
+        "te": ["బోర్డో మిశ్రమం ఉపయోగించండి", "వారానికి వేప నూనె వర్తించండి", "మొక్కల చుట్టూ మట్టిని పెంచండి", "నిరోధక రకాలను నాటండి"]
+      }
+    },
+    {
+      "diseaseName": "Pepper___Bacterial_spot",
+      "symptoms": {
+        "en": ["Small dark brown spots on leaves", "Yellow halos around spots", "Raised corky spots on fruits", "Leaf drop", "Reduced yield"],
+        "hi": ["पत्तियों पर छोटे गहरे भूरे धब्बे", "धब्बों के चारों ओर पीले हेलो", "फलों पर उभरे धब्बे", "पत्ती गिरना", "उपज में कमी"],
+        "te": ["ఆకులపై చిన్న ముదురు గోధుమ మచ్చలు", "మచ్చల చుట్టూ పసుపు వలయాలు", "పండ్లపై పైకి లేచిన మచ్చలు", "ఆకులు రాలడం", "దిగుబడి తగ్గడం"]
+      },
+      "description": {
+        "en": "Bacterial spot caused by Xanthomonas. Spreads through water splash and contaminated tools.",
+        "hi": "बैक्टीरियल स्पॉट ज़ैंथोमोनास के कारण होता है। पानी के छींटे और दूषित उपकरणों से फैलता है।",
+        "te": "బ్యాక్టీరియల్ స్పాట్ జాంథోమోనాస్ వల్ల కలుగుతుంది. నీటి చిమ్ముట మరియు కలుషిత సాధనాల ద్వారా వ్యాపిస్తుంది."
+      },
+      "treatment": {
+        "en": "Use copper bactericides. Remove infected parts. Avoid overhead irrigation. Disinfect tools. Use resistant varieties.",
+        "hi": "तांबा जीवाणुनाशक उपयोग करें। संक्रमित हिस्से हटाएं। ऊपर से सिंचाई से बचें। उपकरण कीटाणुरहित करें। प्रतिरोधी किस्में उपयोग करें।",
+        "te": "రాగి బ్యాక్టీరియా నాశినులు ఉపయోగించండి. సోకిన భాగాలను తొలగించండి. పైనుండి నీటిపారుదల మానుకోండి. సాధనాలను క్రిమిసంహారక చేయండి."
+      },
+      "pesticides": [
+        {"name": "Copper Hydroxide 77% WP", "buyLink": "https://www.amazon.in/s?k=copper+hydroxide+bactericide"},
+        {"name": "Streptocycline", "buyLink": "https://www.amazon.in/s?k=streptocycline+bactericide"}
+      ],
+      "organicSolutions": {
+        "en": ["Spray copper-based bactericides", "Use garlic extract spray", "Apply neem oil weekly", "Mulch to prevent splash"],
+        "hi": ["तांबा आधारित जीवाणुनाशक स्प्रे करें", "लहसुन के अर्क का स्प्रे करें", "साप्ताहिक नीम तेल लगाएं", "छींटे रोकने के लिए मल्च करें"],
+        "te": ["రాగి ఆధారిత బ్యాక్టీరియా నాశినులు స్ప్రే చేయండి", "వెల్లుల్లి సారం స్ప్రే ఉపయోగించండి", "వారానికి వేప నూనె వర్తించండి", "చిమ్ముట నివారించడానికి మల్చ్ వేయండి"]
+      }
+    },
+    {
+      "diseaseName": "Corn___Common_rust",
+      "symptoms": {
+        "en": ["Rust-colored pustules on leaves", "Pustules on both leaf surfaces", "Yellowing around pustules", "Premature leaf death", "Reduced yield"],
+        "hi": ["पत्तियों पर जंग के रंग के पस्ट्यूल", "दोनों सतहों पर पस्ट्यूल", "पस्ट्यूल के चारों ओर पीलापन", "समय से पहले पत्ती की मृत्यु", "उपज में कमी"],
+        "te": ["ఆకులపై తుప్పు రంగు పుస్ట్యూల్స్", "రెండు ఉపరితలాలపై పుస్ట్యూల్స్", "పుస్ట్యూల్స్ చుట్టూ పసుపు రంగు", "ఆకులు ముందుగానే చనిపోవడం", "దిగుబడి తగ్గడం"]
+      },
+      "description": {
+        "en": "Common rust caused by Puccinia sorghi. Develops in cool, humid conditions.",
+        "hi": "कॉमन रस्ट पुक्सीनिया सोर्घी के कारण होता है। ठंडी, आर्द्र परिस्थितियों में विकसित होता है।",
+        "te": "కామన్ రస్ట్ పుక్సీనియా సోర్ఘీ వల్ల కలుగుతుంది. చల్లని, తేమతో కూడిన పరిస్థితులలో అభివృద్ధి చెందుతుంది."
+      },
+      "treatment": {
+        "en": "Apply azoxystrobin or propiconazole fungicides. Plant resistant hybrids. Remove volunteer plants. Ensure proper spacing.",
+        "hi": "एज़ोक्सीस्ट्रोबिन या प्रोपिकोनाज़ोल फफूंदनाशक लगाएं। प्रतिरोधी संकर लगाएं। स्वयंसेवी पौधे हटाएं। उचित दूरी सुनिश्चित करें।",
+        "te": "అజోక్సిస్ట్రోబిన్ లేదా ప్రొపికోనజోల్ శిలీంద్ర నాశినులు వర్తించండి. నిరోధక హైబ్రిడ్‌లను నాటండి. స్వచ్ఛంద మొక్కలను తొలగించండి."
+      },
+      "pesticides": [
+        {"name": "Azoxystrobin 23% SC", "buyLink": "https://www.amazon.in/s?k=azoxystrobin+fungicide"},
+        {"name": "Propiconazole 25% EC", "buyLink": "https://www.amazon.in/s?k=propiconazole+fungicide"}
+      ],
+      "organicSolutions": {
+        "en": ["Plant rust-resistant varieties", "Apply sulfur-based fungicides", "Use compost tea spray", "Ensure adequate nutrition"],
+        "hi": ["जंग-प्रतिरोधी किस्में लगाएं", "सल्फर आधारित फफूंदनाशक लगाएं", "कम्पोस्ट चाय स्प्रे करें", "पर्याप्त पोषण सुनिश्चित करें"],
+        "te": ["తుప్పు-నిరోధక రకాలను నాటండి", "సల్ఫర్ ఆధారిత శిలీంద్ర నాశినులు వర్తించండి", "కంపోస్ట్ టీ స్ప్రే చేయండి", "తగినంత పోషణను నిర్ధారించండి"]
+      }
+    },
+    {
+      "diseaseName": "Rice___Bacterial_leaf_blight",
+      "symptoms": {
+        "en": ["Water-soaked lesions on leaf tips", "Yellowing of leaves", "Wilting of seedlings", "Milky bacterial ooze", "Reduced grain quality"],
+        "hi": ["पत्ती के सिरों पर पानी से भीगे घाव", "पत्तियों का पीलापन", "पौध का मुरझाना", "दूधिया जीवाणु स्राव", "अनाज की गुणवत्ता में कमी"],
+        "te": ["ఆకు కొనలపై నీటితో తడిసిన గాయాలు", "ఆకులు పసుపు రంగులోకి మారడం", "మొలకల వాడిపోవడం", "పాల బ్యాక్టీరియా స్రావం", "ధాన్యం నాణ్యత తగ్గడం"]
+      },
+      "description": {
+        "en": "Bacterial leaf blight caused by Xanthomonas oryzae. Major disease of rice in tropical regions.",
+        "hi": "बैक्टीरियल लीफ ब्लाइट ज़ैंथोमोनास ओराइज़ी के कारण होता है। उष्णकटिबंधीय क्षेत्रों में चावल की प्रमुख बीमारी।",
+        "te": "బ్యాక్టీరియల్ లీఫ్ బ్లైట్ జాంథోమోనాస్ ఒరైజే వల్ల కలుగుతుంది. ఉష్ణమండల ప్రాంతాలలో వరి యొక్క ప్రధాన వ్యాధి."
+      },
+      "treatment": {
+        "en": "Use resistant varieties. Apply copper bactericides. Maintain proper water management. Remove infected plants. Use clean seed.",
+        "hi": "प्रतिरोधी किस्में उपयोग करें। तांबा जीवाणुनाशक लगाएं। उचित जल प्रबंधन बनाए रखें। संक्रमित पौधे हटाएं। स्वच्छ बीज उपयोग करें।",
+        "te": "నిరోధక రకాలను ఉపయోగించండి. రాగి బ్యాక్టీరియా నాశినులు వర్తించండి. సరైన నీటి నిర్వహణను కొనసాగించండి. సోకిన మొక్కలను తొలగించండి."
+      },
+      "pesticides": [
+        {"name": "Copper Oxychloride 50% WP", "buyLink": "https://www.amazon.in/s?k=copper+oxychloride+bactericide"},
+        {"name": "Streptocycline + Copper", "buyLink": "https://www.amazon.in/s?k=streptocycline+copper+bactericide"}
+      ],
+      "organicSolutions": {
+        "en": ["Plant resistant varieties like Swarna", "Use bio-agents like Pseudomonas", "Apply neem cake to soil", "Maintain field sanitation"],
+        "hi": ["स्वर्णा जैसी प्रतिरोधी किस्में लगाएं", "स्यूडोमोनास जैसे जैव-एजेंट उपयोग करें", "मिट्टी में नीम की खली डालें", "खेत की स्वच्छता बनाए रखें"],
+        "te": ["స్వర్ణ వంటి నిరోధక రకాలను నాటండి", "సూడోమోనాస్ వంటి జీవ-ఏజెంట్లను ఉపయోగించండి", "మట్టికి వేప పిండిని వర్తించండి", "పొలం పరిశుభ్రతను కొనసాగించండి"]
+      }
+    },
+    {
+      "diseaseName": "Wheat___Brown_rust",
+      "symptoms": {
+        "en": ["Orange-brown pustules on leaves", "Pustules arranged in rows", "Yellowing of leaves", "Premature drying", "Reduced grain weight"],
+        "hi": ["पत्तियों पर नारंगी-भूरे पस्ट्यूल", "पंक्तियों में व्यवस्थित पस्ट्यूल", "पत्तियों का पीलापन", "समय से पहले सूखना", "अनाज के वजन में कमी"],
+        "te": ["ఆకులపై నారింజ-గోధుమ పుస్ట్యూల్స్", "వరుసలలో అమర్చిన పుస్ట్యూల్స్", "ఆకులు పసుపు రంగులోకి మారడం", "ముందుగానే ఎండిపోవడం", "ధాన్యం బరువు తగ్గడం"]
+      },
+      "description": {
+        "en": "Brown rust caused by Puccinia triticina. Most common rust disease of wheat worldwide.",
+        "hi": "ब्राउन रस्ट पुक्सीनिया ट्रिटिसिना के कारण होता है। विश्वभर में गेहूं की सबसे आम जंग बीमारी।",
+        "te": "బ్రౌన్ రస్ట్ పుక్సీనియా ట్రిటిసినా వల్ల కలుగుతుంది. ప్రపంచవ్యాప్తంగా గోధుమ యొక్క అత్యంత సాధారణ తుప్పు వ్యాధి."
+      },
+      "treatment": {
+        "en": "Apply propiconazole or tebuconazole fungicides. Plant resistant varieties. Remove volunteer plants. Ensure balanced nutrition.",
+        "hi": "प्रोपिकोनाज़ोल या टेबुकोनाज़ोल फफूंदनाशक लगाएं। प्रतिरोधी किस्में लगाएं। स्वयंसेवी पौधे हटाएं। संतुलित पोषण सुनिश्चित करें।",
+        "te": "ప్రొపికోనజోల్ లేదా టెబుకోనజోల్ శిలీంద్ర నాశినులు వర్తించండి. నిరోధక రకాలను నాటండి. స్వచ్ఛంద మొక్కలను తొలగించండి."
+      },
+      "pesticides": [
+        {"name": "Propiconazole 25% EC", "buyLink": "https://www.amazon.in/s?k=propiconazole+fungicide"},
+        {"name": "Tebuconazole 25% EC", "buyLink": "https://www.amazon.in/s?k=tebuconazole+fungicide"}
+      ],
+      "organicSolutions": {
+        "en": ["Plant rust-resistant varieties", "Apply sulfur dust", "Use Trichoderma bio-fungicide", "Ensure proper crop rotation"],
+        "hi": ["जंग-प्रतिरोधी किस्में लगाएं", "सल्फर धूल लगाएं", "ट्राइकोडर्मा जैव-फफूंदनाशक उपयोग करें", "उचित फसल चक्र सुनिश्चित करें"],
+        "te": ["తుప్పు-నిరోధక రకాలను నాటండి", "సల్ఫర్ ధూళిని వర్తించండి", "ట్రైకోడెర్మా జీవ-శిలీంద్ర నాశిని ఉపయోగించండి", "సరైన పంట మార్పిడిని నిర్ధారించండి"]
+      }
+    },
+    {
+      "diseaseName": "Cotton___Bacterial_blight",
+      "symptoms": {
+        "en": ["Water-soaked angular leaf spots", "Black arm symptoms on stems", "Boll rot", "Seedling blight", "Reduced fiber quality"],
+        "hi": ["पत्तियों पर पानी से भीगे कोणीय धब्बे", "तनों पर काली भुजा के लक्षण", "गोला सड़न", "पौध झुलसा", "रेशे की गुणवत्ता में कमी"],
+        "te": ["ఆకులపై నీటితో తడిసిన కోణీయ మచ్చలు", "కాండాలపై నల్ల చేయి లక్షణాలు", "బొండ కుళ్ళు", "మొలక వాడిపోవడం", "ఫైబర్ నాణ్యత తగ్గడం"]
+      },
+      "description": {
+        "en": "Bacterial blight caused by Xanthomonas citri. Serious disease affecting cotton yield and quality.",
+        "hi": "बैक्टीरियल ब्लाइट ज़ैंथोमोनास सिट्री के कारण होता है। कपास की उपज और गुणवत्ता को प्रभावित करने वाली गंभीर बीमारी।",
+        "te": "బ్యాక్టీరియల్ బ్లైట్ జాంథోమోనాస్ సిట్రీ వల్ల కలుగుతుంది. పత్తి దిగుబడి మరియు నాణ్యతను ప్రభావితం చేసే తీవ్రమైన వ్యాధి."
+      },
+      "treatment": {
+        "en": "Use disease-free seed. Apply copper bactericides. Remove infected plants. Practice crop rotation. Avoid overhead irrigation.",
+        "hi": "रोग-मुक्त बीज उपयोग करें। तांबा जीवाणुनाशक लगाएं। संक्रमित पौधे हटाएं। फसल चक्र अपनाएं। ऊपर से सिंचाई से बचें।",
+        "te": "వ్యాధి-రహిత విత్తనాలను ఉపయోగించండి. రాగి బ్యాక్టీరియా నాశినులు వర్తించండి. సోకిన మొక్కలను తొలగించండి. పంట మార్పిడి చేయండి."
+      },
+      "pesticides": [
+        {"name": "Copper Hydroxide 77% WP", "buyLink": "https://www.amazon.in/s?k=copper+hydroxide+bactericide"},
+        {"name": "Streptocycline", "buyLink": "https://www.amazon.in/s?k=streptocycline+bactericide"}
+      ],
+      "organicSolutions": {
+        "en": ["Plant resistant varieties", "Use Pseudomonas bio-agent", "Apply neem oil spray", "Maintain field sanitation"],
+        "hi": ["प्रतिरोधी किस्में लगाएं", "स्यूडोमोनास जैव-एजेंट उपयोग करें", "नीम तेल स्प्रे लगाएं", "खेत की स्वच्छता बनाए रखें"],
+        "te": ["నిరోధక రకాలను నాటండి", "సూడోమోనాస్ జీవ-ఏజెంట్ ఉపయోగించండి", "వేప నూనె స్ప్రే వర్తించండి", "పొలం పరిశుభ్రతను కొనసాగించండి"]
+      }
+    },
+    {
+      "diseaseName": "Grape___Black_rot",
+      "symptoms": {
+        "en": ["Circular tan leaf spots", "Black mummified berries", "Fruit rot", "Leaf blight", "Reduced grape quality"],
+        "hi": ["गोलाकार तन पत्ती के धब्बे", "काले ममीकृत बेरी", "फल सड़न", "पत्ती झुलसा", "अंगूर की गुणवत्ता में कमी"],
+        "te": ["వృత్తాకార టాన్ ఆకు మచ్చలు", "నల్ల మమ్మీఫైడ్ బెర్రీలు", "పండు కుళ్ళు", "ఆకు వాడిపోవడం", "ద్రాక్ష నాణ్యత తగ్గడం"]
+      },
+      "description": {
+        "en": "Black rot caused by Guignardia bidwellii. Most destructive disease of grapes in humid regions.",
+        "hi": "ब्लैक रॉट गुइग्नार्डिया बिडवेली के कारण होता है। आर्द्र क्षेत्रों में अंगूर की सबसे विनाशकारी बीमारी।",
+        "te": "బ్లాక్ రాట్ గుయిగ్నార్డియా బిడ్వెల్లీ వల్ల కలుగుతుంది. తేమతో కూడిన ప్రాంతాలలో ద్రాక్ష యొక్క అత్యంత వినాశకరమైన వ్యాధి."
+      },
+      "treatment": {
+        "en": "Apply mancozeb or captan fungicides. Remove mummified berries. Prune for air circulation. Use resistant varieties.",
+        "hi": "मैनकोजेब या कैप्टन फफूंदनाशक लगाएं। ममीकृत बेरी हटाएं। वायु संचार के लिए छंटाई करें। प्रतिरोधी किस्में उपयोग करें।",
+        "te": "మాంకోజెబ్ లేదా కాప్టాన్ శిలీంద్ర నాశినులు వర్తించండి. మమ్మీఫైడ్ బెర్రీలను తొలగించండి. గాలి ప్రసరణ కోసం కత్తిరించండి."
+      },
+      "pesticides": [
+        {"name": "Mancozeb 75% WP", "buyLink": "https://www.amazon.in/s?k=mancozeb+fungicide"},
+        {"name": "Captan 50% WP", "buyLink": "https://www.amazon.in/s?k=captan+fungicide"}
+      ],
+      "organicSolutions": {
+        "en": ["Apply sulfur-based fungicides", "Use Bordeaux mixture", "Remove infected plant parts", "Ensure proper pruning"],
+        "hi": ["सल्फर आधारित फफूंदनाशक लगाएं", "बोर्डो मिश्रण उपयोग करें", "संक्रमित पौधे के हिस्से हटाएं", "उचित छंटाई सुनिश्चित करें"],
+        "te": ["సల్ఫర్ ఆధారిత శిలీంద్ర నాశినులు వర్తించండి", "బోర్డో మిశ్రమం ఉపయోగించండి", "సోకిన మొక్క భాగాలను తొలగించండి", "సరైన కత్తిరింపును నిర్ధారించండి"]
+      }
+    },
+    {
+      "diseaseName": "Apple___Apple_scab",
+      "symptoms": {
+        "en": ["Olive-green spots on leaves", "Velvety lesions on fruits", "Leaf curling", "Premature leaf drop", "Cracked fruits"],
+        "hi": ["पत्तियों पर जैतून-हरे धब्बे", "फलों पर मखमली घाव", "पत्ती मुड़ना", "समय से पहले पत्ती गिरना", "फटे हुए फल"],
+        "te": ["ఆకులపై ఆలివ్-ఆకుపచ్చ మచ్చలు", "పండ్లపై వెల్వెట్ గాయాలు", "ఆకు వంగడం", "ముందుగానే ఆకులు రాలడం", "పగిలిన పండ్లు"]
+      },
+      "description": {
+        "en": "Apple scab caused by Venturia inaequalis. Most serious disease of apples worldwide.",
+        "hi": "एप्पल स्कैब वेंटुरिया इनएक्वालिस के कारण होता है। विश्वभर में सेब की सबसे गंभीर बीमारी।",
+        "te": "ఆపిల్ స్కాబ్ వెంటురియా ఇనేక్వాలిస్ వల్ల కలుగుతుంది. ప్రపంచవ్యాప్తంగా ఆపిల్ యొక్క అత్యంత తీవ్రమైన వ్యాధి."
+      },
+      "treatment": {
+        "en": "Apply captan or myclobutanil fungicides. Remove fallen leaves. Prune for air circulation. Use scab-resistant varieties.",
+        "hi": "कैप्टन या माइक्लोब्यूटानिल फफूंदनाशक लगाएं। गिरी हुई पत्तियां हटाएं। वायु संचार के लिए छंटाई करें। स्कैब-प्रतिरोधी किस्में उपयोग करें।",
+        "te": "కాప్టాన్ లేదా మైక్లోబ్యూటానిల్ శిలీంద్ర నాశినులు వర్తించండి. రాలిన ఆకులను తొలగించండి. గాలి ప్రసరణ కోసం కత్తిరించండి."
+      },
+      "pesticides": [
+        {"name": "Captan 50% WP", "buyLink": "https://www.amazon.in/s?k=captan+fungicide"},
+        {"name": "Myclobutanil 10% WP", "buyLink": "https://www.amazon.in/s?k=myclobutanil+fungicide"}
+      ],
+      "organicSolutions": {
+        "en": ["Apply sulfur spray", "Use Bordeaux mixture", "Remove infected leaves", "Plant resistant varieties like Liberty"],
+        "hi": ["सल्फर स्प्रे लगाएं", "बोर्डो मिश्रण उपयोग करें", "संक्रमित पत्तियां हटाएं", "लिबर्टी जैसी प्रतिरोधी किस्में लगाएं"],
+        "te": ["సల్ఫర్ స్ప్రే వర్తించండి", "బోర్డో మిశ్రమం ఉపయోగించండి", "సోకిన ఆకులను తొలగించండి", "లిబర్టీ వంటి నిరోధక రకాలను నాటండి"]
+      }
+    },
+    {
+      "diseaseName": "Citrus___Citrus_canker",
+      "symptoms": {
+        "en": ["Raised corky lesions on fruits", "Brown spots with yellow halos on leaves", "Premature fruit drop", "Twig dieback", "Reduced fruit quality"],
+        "hi": ["फलों पर उभरे हुए कॉर्की घाव", "पत्तियों पर पीले हेलो के साथ भूरे धब्बे", "समय से पहले फल गिरना", "टहनी का सूखना", "फल की गुणवत्ता में कमी"],
+        "te": ["పండ్లపై పైకి లేచిన కార్కీ గాయాలు", "ఆకులపై పసుపు వలయాలతో గోధుమ మచ్చలు", "ముందుగానే పండ్లు రాలడం", "కొమ్మ ఎండిపోవడం", "పండు నాణ్యత తగ్గడం"]
+      },
+      "description": {
+        "en": "Citrus canker caused by Xanthomonas citri. Highly contagious bacterial disease affecting all citrus varieties.",
+        "hi": "सिट्रस कैंकर ज़ैंथोमोनास सिट्री के कारण होता है। सभी खट्टे किस्मों को प्रभावित करने वाली अत्यधिक संक्रामक जीवाणु बीमारी।",
+        "te": "సిట్రస్ క్యాంకర్ జాంథోమోనాస్ సిట్రీ వల్ల కలుగుతుంది. అన్ని సిట్రస్ రకాలను ప్రభావితం చేసే అత్యంత అంటువ్యాధి బ్యాక్టీరియా వ్యాధి."
+      },
+      "treatment": {
+        "en": "Apply copper bactericides. Remove infected plant parts. Use windbreaks. Avoid overhead irrigation. Plant resistant varieties.",
+        "hi": "तांबा जीवाणुनाशक लगाएं। संक्रमित पौधे के हिस्से हटाएं। वायुरोधक उपयोग करें। ऊपर से सिंचाई से बचें। प्रतिरोधी किस्में लगाएं।",
+        "te": "రాగి బ్యాక్టీరియా నాశినులు వర్తించండి. సోకిన మొక్క భాగాలను తొలగించండి. గాలి అడ్డంకులను ఉపయోగించండి. పైనుండి నీటిపారుదల మానుకోండి."
+      },
+      "pesticides": [
+        {"name": "Copper Oxychloride 50% WP", "buyLink": "https://www.amazon.in/s?k=copper+oxychloride+bactericide"},
+        {"name": "Streptocycline + Copper", "buyLink": "https://www.amazon.in/s?k=streptocycline+copper+bactericide"}
+      ],
+      "organicSolutions": {
+        "en": ["Use copper-based organic bactericides", "Apply neem oil spray", "Remove infected branches", "Maintain orchard sanitation"],
+        "hi": ["तांबा आधारित जैविक जीवाणुनाशक उपयोग करें", "नीम तेल स्प्रे लगाएं", "संक्रमित शाखाएं हटाएं", "बाग की स्वच्छता बनाए रखें"],
+        "te": ["రాగి ఆధారిత సేంద్రీయ బ్యాక్టీరియా నాశినులు ఉపయోగించండి", "వేప నూనె స్ప్రే వర్తించండి", "సోకిన కొమ్మలను తొలగించండి", "తోట పరిశుభ్రతను కొనసాగించండి"]
+      }
+    }
+  ]
+}

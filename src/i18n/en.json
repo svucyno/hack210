@@ -1,0 +1,149 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "filter": "Filter"
+  },
+  "nav": {
+    "home": "Home",
+    "market": "Market",
+    "chat": "AI Chat",
+    "disease": "Disease",
+    "schemes": "Schemes",
+    "profile": "Profile",
+    "cropAdvisor": "Crop Advisor",
+    "assistant": "Assistant"
+  },
+  "home": {
+    "welcome": "Welcome back",
+    "weather": "Weather",
+    "market": "Market Prices",
+    "recommendations": "Crop Recommendations",
+    "alerts": "Alerts"
+  },
+  "weather": {
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "windSpeed": "Wind Speed",
+    "forecast": "5-Day Forecast"
+  },
+  "market": {
+    "title": "Market Prices",
+    "crop": "Crop",
+    "price": "Price",
+    "trend": "Trend",
+    "location": "Location",
+    "updated": "Updated"
+  },
+  "crops": {
+    "recommendation": "Recommended Crops",
+    "suitability": "Suitability",
+    "yield": "Expected Yield",
+    "tips": "Growing Tips",
+    "profit": "Profit Potential"
+  },
+  "schemes": {
+    "title": "Government Schemes",
+    "eligibility": "Eligibility",
+    "deadline": "Deadline",
+    "benefits": "Benefits",
+    "apply": "Apply Now"
+  },
+  "chat": {
+    "title": "AI Assistant",
+    "placeholder": "Ask me anything about farming...",
+    "send": "Send",
+    "listening": "Listening...",
+    "speaking": "Speaking..."
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "location": "Location",
+    "language": "Language",
+    "logout": "Logout"
+  },
+  "disease": {
+    "title": "Crop Disease Detection",
+    "uploadImage": "Upload Image",
+    "captureImage": "Capture Photo",
+    "detectButton": "Detect Disease",
+    "confidence": "Confidence",
+    "treatment": "Treatment",
+    "description": "Description",
+    "symptoms": "Symptoms",
+    "treatmentInstructions": "Treatment Instructions",
+    "pesticides": "Recommended Pesticides",
+    "organicSolutions": "Organic Solutions",
+    "buyNow": "Buy Now",
+    "newDetection": "New Detection",
+    "saveResult": "Save Result",
+    "readAloud": "Read Aloud",
+    "processing": "Analyzing image...",
+    "selectImage": "Select or capture an image to begin",
+    "errors": {
+      "invalidFileType": "Invalid file type. Please upload JPEG, PNG, or WebP.",
+      "fileTooLarge": "File size exceeds 5MB. Please choose a smaller image.",
+      "noImageSelected": "Please select an image first.",
+      "compressionFailed": "Failed to process image. Please try a different image.",
+      "networkError": "Network error. Please check your connection and try again.",
+      "serviceUnavailable": "AI service temporarily unavailable. Please try again later.",
+      "detectionFailed": "Failed to detect disease. Please try again.",
+      "apiKeyMissing": "API key not configured. Please check your .env file.",
+      "apiKeyInvalid": "Authentication failed. Please check your API keys.",
+      "rateLimitExceeded": "Rate limit exceeded. Please wait and try again.",
+      "serviceTimeout": "Request timeout. Please check your connection.",
+      "corsError": "CORS configuration error. Please check API endpoint settings.",
+      "fallbackUnavailable": "Fallback service not configured. Please set API keys."
+    },
+    "warnings": {
+      "lowConfidence": "Low confidence result. Consider consulting an expert for confirmation."
+    }
+  },
+  "cropAdvisor": {
+    "title": "AI Crop Advisor",
+    "subtitle": "Get personalized farming advice",
+    "form": {
+      "crop": "Crop Name",
+      "cropPlaceholder": "e.g., Rice, Wheat, Cotton",
+      "location": "Location",
+      "locationPlaceholder": "e.g., Andhra Pradesh",
+      "season": "Season",
+      "seasonPlaceholder": "e.g., Kharif, Rabi",
+      "soil": "Soil Type",
+      "soilPlaceholder": "e.g., Clay, Sandy, Loamy",
+      "water": "Water Availability",
+      "waterPlaceholder": "e.g., Irrigated, Rainfed",
+      "problem": "Problem Description",
+      "problemPlaceholder": "Describe your crop issue in detail...",
+      "submit": "Get Advice",
+      "submitting": "Getting advice..."
+    },
+    "response": {
+      "title": "AI Recommendations",
+      "newQuery": "New Query",
+      "readAloud": "Read Aloud",
+      "timestamp": "Generated at"
+    },
+    "errors": {
+      "required": "This field is required",
+      "minLength": "Please enter at least {{min}} characters",
+      "maxLength": "Maximum {{max}} characters allowed",
+      "timeout": "Request timeout. Please check your connection and try again.",
+      "clientError": "Invalid request. Please check your inputs and try again.",
+      "serverError": "Service temporarily unavailable. Please try again later.",
+      "networkError": "Network error. Please check your internet connection.",
+      "unknownError": "An unexpected error occurred. Please try again."
+    },
+    "success": {
+      "title": "Success",
+      "message": "Received advice from AI advisor"
+    }
+  }
+}
